@@ -1,0 +1,20 @@
+{
+  "name": "wam-pub-optimizer",
+  "version": "0.1.0",
+  "description": "Minify and optimize assets for Wamland Pub files",
+  "license": "MIT",
+  "bin": {
+    "pub-optimizer": "cli.js"
+  },
+  "author": {
+    "name": "Loic Kartono",
+    "email": "contact@kartono-loic.com",
+    "url": "http://www.kartono-loic.com"
+  },
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-imagemin": "^2.2.1",
+    "imagemin-pngquant": "^4.1.0",
+    "meow": "^3.1.0"
+  }
+}
