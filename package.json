@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Minify and optimize assets for Wamland Pub files",
   "license": "MIT",
+  "repository": "wamland-team/wam-pub-optimizer",
   "bin": {
     "pub-optimizer": "cli.js"
   },
@@ -11,6 +12,18 @@
     "email": "contact@kartono-loic.com",
     "url": "http://www.kartono-loic.com"
   },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "cli-app",
+    "cli",
+    "bin",
+    "adobe edge",
+    "advertisement",
+    "optimize",
+    "minify"
+  ],
   "dependencies": {
     "gulp": "^3.8.11",
     "gulp-imagemin": "^2.2.1",
