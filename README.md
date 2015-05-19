@@ -18,7 +18,7 @@ $ pub-optimizer --help
 
   Minify and optimize assets for Wamland Pub files
 
-  Usage :   pub-optimizer <path_to_optimize>..<path_to_optimize>
+  Usage : pub-optimizer <path_to_optimize> <path_to_optimize>
 ```
 
 ## Example

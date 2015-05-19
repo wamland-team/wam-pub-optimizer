@@ -8,18 +8,17 @@ var optimizer = require('./');
 
 var cli = meow({
   help: [
-    'Usage :   pub-optimizer <path_to_optimize>..<path_to_optimize>'
+    'Usage : pub-optimizer <path_to_optimize> <path_to_optimize>',
+    ''
   ].join('\n')
 });
 
 var paths = cli.input
 
 paths.forEach(function (path) {
-  fs.exists(path, function (exists) {
-    if (exists) {
-      optimizer.minify(path);
-    } else {
-      console.log(path + ' is not a valid directory.')
-    }
-  });
+  if (fs.existsSync(path)) {
+    optimizer.minify(path);
+  } else {
+    console.log(path + ' is not a valid directory.')
+  }
 });
