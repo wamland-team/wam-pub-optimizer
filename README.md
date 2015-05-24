@@ -1,4 +1,4 @@
-Wamland Pub Optimizer
+Wamland Pub Optimizer [![npm version](https://badge.fury.io/js/wam-pub-optimizer.svg)](http://badge.fury.io/js/wam-pub-optimizer)
 =====================
 
 > Adobe Edge Animation
